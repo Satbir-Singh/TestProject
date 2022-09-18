@@ -8,6 +8,9 @@ app.post('/',function(req,res){
     })
 })
 
+app.get();
+
+
 app.get('/getData',function(req,res){
     return res.json(200,{
         message:`get your data`
