@@ -8,7 +8,7 @@ app.post('/',function(req,res){
     })
 })
 
-app.get('/kuch bhi ');
+app.get('/kuch bhi hello');
 
 
 app.get('/getData',function(req,res){
